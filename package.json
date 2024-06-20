@@ -1,0 +1,14 @@
+{
+    "name": "apple-app-site-association-server",
+    "version": "1.0.0",
+    "description": "A small Node.js server to expose apple-app-site-association",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "author": "Abdelaziz Mezri",
+    "license": "ISC"
+}
