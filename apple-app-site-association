@@ -5,12 +5,8 @@
         "appIDs": [ "Q5SKYGM6W5.com.fuzyo.ApprendreLeFrancais", "Q5SKYGM6W5.com.tapptic.tv5.apprendre.release", "Q5SKYGM6W5.com.tv5monde.apprendre"],
         "components": [
           {
-            "/": "/*/exercice/*",
-            "comment": "Matches any URL with a path with /*/exercice/* format."
-          },
-          {
-            "/": "/*/tcf*",
-            "comment": "Matches any URL with a path that starts with /*/tcf."
+            "/": "*",
+            "comment": "Matches any URL"
           }
         ]
       }
