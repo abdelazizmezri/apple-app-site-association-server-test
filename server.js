@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 
 // Route to serve the apple-app-site-association file
 app.get('/apple-app-site-association', (req, res) => {
-  const filePath = path.join(__dirname, '.well-known/apple-app-site-association');
+  const filePath = path.join(__dirname, 'apple-app-site-association');
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       res.status(500).send('Error reading file');
